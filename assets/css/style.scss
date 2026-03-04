@@ -1,0 +1,22 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+.wrap { max-width: 900px; margin: 0 auto; padding: 24px; }
+
+.site-header { margin-bottom: 24px; }
+.site-title { margin: 0; }
+.site-title a { text-decoration: none; }
+.site-tagline { margin: 6px 0 12px; color: #666; }
+
+.topnav { margin: 10px 0 0; display: flex; flex-wrap: wrap; gap: 10px; }
+.topnav a {
+  text-decoration: none;
+  padding: 6px 10px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+}
+.topnav a:hover { border-color: #999; }
+
+.site-footer { margin-top: 40px; padding-top: 12px; border-top: 1px solid #eee; }
