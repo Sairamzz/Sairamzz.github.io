@@ -11,7 +11,7 @@ title: About
 
 # About Me
 
-Hi! I'm **Sairam Sridharan**, a Master's student in **Robotics at Northeastern University**.
+Hi! I'm **Sairam Sridharan**, a Master's student in **Robotics** at Northeastern University.
 
 My interests include:
 
@@ -22,7 +22,7 @@ My interests include:
 - Control Systems
 - Reinforcement Learning
 
-I enjoy building full robotics systems from perception to planning and control, including **sensor fusion, motion planning, controls, and robot simulation**.
+I enjoy building full robotics systems from perception to planning and control, including sensor fusion, motion planning, controls, and robot simulation.
 
 </div>
 </div>
