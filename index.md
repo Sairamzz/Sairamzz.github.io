@@ -3,19 +3,26 @@ layout: default
 title: About
 ---
 
+<div style="display:flex; align-items:center; gap:30px;">
+
+<img src="/assets/images/profile.jpeg" width="180" style="border-radius:10px;">
+
+<div>
+  
 # About Me
 
-Hi! I'm **Sairam Sridharan**, a Master's student in **Robotics at Northeastern University**.
+Hi! I'm **Sairam Sridharan**, a Master's student in Robotics at Northeastern University.
 
 My interests include:
 
-- Robot Perception
-- SLAM
-- Motion Planning
-- Legged Robotics
-- Control Systems
+  - Robot Perception
+  - SLAM
+  - Motion Planning
+  - Legged Robotics
+  - Control Systems
+  - Reinforcement Learning
 
-I enjoy building full robotics systems from perception to planning and control, including **sensor fusion, motion planning, controls, and robot simulation**.
+I enjoy building full robotics systems from perception to planning and control, including sensor fusion, motion planning, controls, and robot simulation.
 
 ---
 
