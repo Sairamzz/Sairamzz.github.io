@@ -9,20 +9,27 @@ title: About
 
 <div style="min-width:260px; flex:1;">
 
-# About Me
+<h2>About Me</h2>
 
-Hi! I'm **Sairam Sridharan**, a Master's student in **Robotics** at Northeastern University.
+<p>
+Hi! I'm <b>Sairam Sridharan</b>, a Master's student in <b>Robotics</b> at Northeastern University.
+</p>
 
-My interests include:
+<p>My interests include:</p>
 
-- Robot Perception
-- SLAM
-- Motion Planning
-- Legged Robotics
-- Control Systems
-- Reinforcement Learning
+<ul>
+<li>Robot Perception</li>
+<li>SLAM</li>
+<li>Motion Planning</li>
+<li>Legged Robotics</li>
+<li>Control Systems</li>
+<li>Reinforcement Learning</li>
+</ul>
 
-I enjoy building full robotics systems from perception to planning and control, including sensor fusion, motion planning, controls, and robot simulation.
+<p>
+I enjoy building full robotics systems from perception to planning and control,
+including sensor fusion, motion planning, controls, and robot simulation.
+</p>
 
 </div>
 </div>
