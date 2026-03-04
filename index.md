@@ -5,7 +5,7 @@ title: About
 
 <div style="display:flex; align-items:flex-start; gap:30px; flex-wrap:wrap;">
 
-<img src="/assets/images/profile.jpeg" style="width:180px; border-radius:12px;">
+<img src="/assets/images/profile.jpeg" style="width:200px; border-radius:12px;">
 
 <div style="min-width:260px; flex:1;">
 
