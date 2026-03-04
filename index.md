@@ -7,7 +7,7 @@ title: About
 
 Hi! I'm **Sairam Sridharan**, a Master's student in **Robotics at Northeastern University**.
 
-My interests lie in:
+My interests include:
 
 - Robot Perception
 - SLAM
@@ -15,27 +15,29 @@ My interests lie in:
 - Legged Robotics
 - Control Systems
 
-I enjoy building full robotics systems from perception to planning and control. My work includes projects involving **sensor fusion, motion planning algorithms, controls and robot simulation**.
+I enjoy building full robotics systems from perception to planning and control, including **sensor fusion, motion planning, controls, and robot simulation**.
 
 ---
 
-## Projects
+## Featured Projects
 
-### Adaptive Path-Guided RRT (APG-RRT)
-Implemented an adaptive sampling-based path planner and compared its performance with standard RRT using occupancy grid maps.
+- **APG-RRT Path Planner in ROS2** — Adaptive sampling-based planner; integrated with TurtleBot3/Gazebo.  
+  → [View Projects](/projects/)
 
-### Camera–LiDAR Extrinsic Calibration (On-the-fly)
-Developed a pipeline to estimate the extrinsic transformation between camera and LiDAR sensors during runtime.
+- **Camera–LiDAR Extrinsic Calibration (On-the-fly)** — Runtime 6-DoF calibration using edge-based alignment.  
+  → [View Projects](/projects/)
 
-### Structure-from-Motion 3D Reconstruction
-Implemented a complete SfM pipeline including feature matching, pose estimation, triangulation, and bundle adjustment.
+- **Structure-from-Motion 3D Reconstruction** — Full SfM pipeline with triangulation + bundle adjustment.  
+  → [View Projects](/projects/)
 
-### Autonomous Jenga Playing Robot
-Designed a robotic manipulation system capable of extracting and stacking Jenga blocks using perception and motion planning.
+- **Autonomous Jenga-Playing Robot Arm** — OpenCV perception + precision manipulation for block extraction.  
+  → [View Projects](/projects/)
 
 ---
 
-## Links
+## Quick Links
 
-- GitHub: https://github.com/Sairamzz  
-- LinkedIn: [*(add your LinkedIn here)* ](https://www.linkedin.com/in/sairam-sridharan-6640441b9/) 
+- GitHub: <https://github.com/Sairamzz>  
+- LinkedIn: <https://www.linkedin.com/in/sairam-sridharan-6640441b9/>  
+- Experience: [Work Experience](/experience/)  
+- Projects: [Projects](/projects/)
