@@ -24,6 +24,10 @@ My interests include:
 
 I enjoy building full robotics systems from perception to planning and control, including sensor fusion, motion planning, controls, and robot simulation.
 
+</div>
+
+</div>
+
 ---
 
 ## Featured Projects
