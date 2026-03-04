@@ -5,7 +5,7 @@ title: About
 
 <div style="display:flex; align-items:flex-start; gap:30px; flex-wrap:wrap;">
 
-<img src="/assets/images/profile.jpeg" width="180" style="border-radius:12px;">
+<img src="/assets/images/profile.jpeg" style="width:180px; border-radius:12px;">
 
 <div style="min-width:260px; flex:1;">
 
@@ -31,7 +31,7 @@ I enjoy building full robotics systems from perception to planning and control, 
 
 ## Quick Links
 
-- Projects: [Highlighted Projects](/projects/)
-- Experience: [Work Experience](/experience/)
-- GitHub: <https://github.com/Sairamzz>
-- LinkedIn: <https://www.linkedin.com/in/sairam-sridharan-6640441b9/>
+- **Projects:** [Highlighted Projects](/projects/)
+- **Experience:** [Work Experience](/experience/)
+- **GitHub:** <https://github.com/Sairamzz>
+- **LinkedIn:** <https://www.linkedin.com/in/sairam-sridharan-6640441b9/>
