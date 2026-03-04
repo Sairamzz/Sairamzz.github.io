@@ -38,4 +38,4 @@ Designed a robotic manipulation system capable of extracting and stacking Jenga 
 ## Links
 
 - GitHub: https://github.com/Sairamzz  
-- LinkedIn: *(add your LinkedIn here)*  
+- LinkedIn: [*(add your LinkedIn here)* ](https://www.linkedin.com/in/sairam-sridharan-6640441b9/) 
