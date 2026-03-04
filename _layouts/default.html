@@ -1,37 +1,44 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>{{ page.title }} | {{ site.title }}</title>
-    <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
-  </head>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>{{ page.title }} | {{ site.title }}</title>
 
-  <body>
-    <div class="wrap">
-      <header class="site-header">
-        <div class="titleblock">
-          <h1 class="site-title">
-            <a href="{{ '/' | relative_url }}">{{ site.title }}</a>
-          </h1>
-          <p class="site-tagline">{{ site.description }}</p>
-        </div>
+  <!-- GitHub markdown styling -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/5.6.1/github-markdown.min.css">
 
-        {% include nav.html %}
-      </header>
+  <!-- Custom styles -->
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+</head>
 
-      <main class="content">
-        {{ content }}
-      </main>
+<body>
+  <div class="wrap">
 
-      <footer class="site-footer">
-        <h3>Contact</h3>
-        <ul>
-          <li>Email: <a href="mailto:sridharan.sai@northeastern.edu">sridharan.sai@northeastern.edu</a></li>
-          <li>LinkedIn: <a href="https://www.linkedin.com/in/sairam-sridharan-6640441b9/">LinkedIn</a></li>
-          <li>GitHub: <a href="https://github.com/Sairamzz">Sairamzz</a></li>
-        </ul>
-      </footer>
-    </div>
-  </body>
+    <header class="site-header">
+      <div class="titleblock">
+        <h1 class="site-title">
+          <a href="{{ '/' | relative_url }}">{{ site.title }}</a>
+        </h1>
+        <p class="site-tagline">{{ site.description }}</p>
+      </div>
+
+      {% include nav.html %}
+    </header>
+
+    <main class="content markdown-body">
+      {{ content }}
+    </main>
+
+    <footer class="site-footer">
+      <h3>Contact</h3>
+      <ul>
+        <li>Email: <a href="mailto:sridharan.sai@northeastern.edu">sridharan.sai@northeastern.edu</a></li>
+        <li>LinkedIn: <a href="https://www.linkedin.com/in/sairam-sridharan-6640441b9/">LinkedIn</a></li>
+        <li>GitHub: <a href="https://github.com/Sairamzz">Sairamzz</a></li>
+      </ul>
+    </footer>
+
+  </div>
+</body>
 </html>
