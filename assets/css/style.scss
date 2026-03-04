@@ -54,6 +54,8 @@
 .markdown-body {
   font-size: 1rem;
   line-height: 1.6;
+  background: transparent;
+  color: #333;
 }
 
 .site-footer {
@@ -62,6 +64,7 @@
   border-top: 1px solid #eee;
 }
 
-.markdown-body {
-  background: transparent;
+/* remove GitHub markdown width restriction */
+.markdown-body > * {
+  max-width: 100%;
 }
