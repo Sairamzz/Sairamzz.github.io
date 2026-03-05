@@ -3,12 +3,12 @@ layout: default
 title: About
 ---
 
-<div style="display:flex; align-items:flex-start; gap:30px; flex-wrap:wrap;">
+<div style="text-align:center; margin-bottom:30px;">
 
 <img src="/assets/images/profile.jpeg"
-     style="width:300px; border-radius:14px; box-shadow:0 6px 16px rgba(0,0,0,0.2);">
+     style="width:480px; max-width:100%; border-radius:16px; box-shadow:0 8px 22px rgba(0,0,0,0.25);">
 
-<div style="min-width:260px; flex:1;">
+</div>
 
 <h2>About Me</h2>
 
@@ -33,9 +33,6 @@ of <b>Reinforcement Learning for adaptive robotic control</b>.
 </p>
 
 <p>
-Overall, I enjoy tackling challenging robotics problems that require integrating
+Overall, I enjoy solving challenging robotics problems that require integrating
 perception, decision making, and control into reliable autonomous systems.
 </p>
-
-</div>
-</div>
