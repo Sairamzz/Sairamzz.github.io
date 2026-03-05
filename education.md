@@ -8,51 +8,36 @@ permalink: /education/
 
 <div style="display:grid; grid-template-columns:1fr 1fr; gap:40px;">
 
-<div>
+<div style="padding:20px; background:white; border-radius:10px; box-shadow:0 2px 6px rgba(0,0,0,0.05);">
 
-<img src="/assets/images/northeastern_university_logo.jpg" style="height:100px; margin-bottom:10px;">
+<img src="/assets/images/northeastern_university_logo.jpg" style="height:90px; margin-bottom:12px;">
 
 <h3>Northeastern University</h3>
-<p><em>Boston, MA</em></p>
 
-<p><strong>Master of Science in Robotics, Electrical and Computer Engineering </strong><br>
-Expected: May 2026</p>
+<p><strong>Location:</strong> Boston, MA</p>
 
-<p><strong>Related Coursework</strong></p>
+<p><strong>Degree:</strong> Master of Science in Robotics (Electrical and Computer Engineering)</p>
 
-<ul>
-<li>Robot Sensing and Navigation</li>
-<li>Mobile Robotics</li>
-<li>Robot Mechanics and Control</li>
-<li>Field Robotics</li>
-<li>Assistive Robotics</li>
-<li>Reinforcement Learning</li>
-<li>Legged Robots (Non-Linear Control)</li>
-</ul>
+<p><strong>Graduation:</strong> Expected May 2026</p>
+
+<p><strong>GPA:</strong> 3.893 / 4.00</p>
 
 </div>
 
-<div>
 
-<img src="/assets/images/vitchennai_logo.jpg" style="height:100px; margin-bottom:10px;">
+<div style="padding:20px; background:white; border-radius:10px; box-shadow:0 2px 6px rgba(0,0,0,0.05);">
+
+<img src="/assets/images/vitchennai_logo.jpg" style="height:90px; margin-bottom:12px;">
 
 <h3>Vellore Institute of Technology</h3>
-<p><em>Chennai, India</em></p>
 
-<p><strong>Bachelor of Technology in Mechatronics and Automation</strong><br>
-May 2024</p>
+<p><strong>Location:</strong> Chennai, India</p>
 
-<p><strong>Related Coursework</strong></p>
+<p><strong>Degree:</strong> Bachelor of Technology in Mechatronics and Automation</p>
 
-<ul>
-<li>Industrial Automation</li>
-<li>PLC</li>
-<li>Machine Learning</li>
-<li>Computer Vision</li>
-<li>Internet of Things (IoT)</li>
-<li>Robot Mechanics</li>
-<li>Product Design and Development</li>
-</ul>
+<p><strong>Graduation:</strong> May 2024</p>
+
+<p><strong>GPA:</strong> 9.12 / 10.00</p>
 
 </div>
 
