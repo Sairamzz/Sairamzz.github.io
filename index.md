@@ -13,33 +13,29 @@ title: About
 <h2>About Me</h2>
 
 <p>
-Hi! I'm <b>Sairam Sridharan</b>, a Master's student in <b>Robotics</b> at Northeastern University.
+I'm a <b>Robotics graduate student at Northeastern University</b>, 
+and I'm passionate about solving challenging robotic problems and have a strong analytical approach. 
+My work focuses on developing whole robotic systems that integrate control, planning, and perception.
 </p>
-
-<p>My interests include:</p>
-
-<ul>
-<li>Robot Perception</li>
-<li>SLAM</li>
-<li>Motion Planning</li>
-<li>Legged Robotics</li>
-<li>Control Systems</li>
-<li>Reinforcement Learning</li>
-</ul>
 
 <p>
-I enjoy building full robotics systems from perception to planning and control,
-including sensor fusion, motion planning, controls, and robot simulation.
+My experience spans <b>sensor fusion, autonomous navigation, motion planning,
+control optimization, and computer vision</b>. I have worked on my projects with
+robotic software frameworks and simulation environments to design and evaluate
+algorithms for robotic systems.
+</p>
+
+<p>
+I bring hands-on knowledge in <b>ROS, Python, OpenCV, and machine learning frameworks</b>,
+along with experience in <b>algorithms, CAD, and robotics simulation</b>.
+My research interests also include <b>legged/bipedal robot locomotion</b> and the use
+of <b>Reinforcement Learning for adaptive robotic control</b>.
+</p>
+
+<p>
+Overall, I enjoy tackling challenging robotics problems that require integrating
+perception, decision making, and control into reliable autonomous systems.
 </p>
 
 </div>
 </div>
-
----
-
-## Quick Links
-
-- **Projects:** [Highlighted Projects](/projects/)
-- **Experience:** [Work Experience](/experience/)
-- **GitHub:** <https://github.com/Sairamzz>
-- **LinkedIn:** <https://www.linkedin.com/in/sairam-sridharan-6640441b9/>
