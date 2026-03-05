@@ -1,141 +1,251 @@
 ---
 ---
 
+/* ── Google Font ── */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+
+/* ── Base ── */
+*, *::before, *::after { box-sizing: border-box; }
+
 body {
-  background-color: #faf8f3;
+  font-family: 'Inter', sans-serif;
+  background: #0d0d0d;
   margin: 0;
+  color: #e8e8e8;
 }
 
+/* ── Layout wrap ── */
 .wrap {
-  max-width: 1200px;
+  max-width: 1100px;
   margin: 0 auto;
-  padding: 24px;
+  padding: 32px 28px;
 }
 
+/* ══════════════════════════════
+   HEADER
+══════════════════════════════ */
 .site-header {
-  margin-bottom: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 28px 36px;
+  margin-bottom: 40px;
+  background: #141414;
+  border: 1px solid #2a2a2a;
+  border-radius: 16px;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.4);
+}
+
+.titleblock {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
 }
 
 .site-title {
   margin: 0;
-  font-size: 2.6rem;
-  font-weight: 700;
-  letter-spacing: -0.5px;
+  font-size: 2.2rem;
+  font-weight: 800;
+  letter-spacing: -1px;
+  line-height: 1.1;
 }
 
 .site-title a {
   text-decoration: none;
-  color: #1f6feb;
+  background: linear-gradient(90deg, #4f9eff, #a78bfa);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
 }
 
 .site-tagline {
-  margin-top: 6px;
-  color: #6a737d;
-  font-size: 1.05rem;
+  margin: 0;
+  color: #888;
+  font-size: 0.95rem;
   font-weight: 400;
+  letter-spacing: 0.2px;
 }
 
+/* ══════════════════════════════
+   NAV
+══════════════════════════════ */
 .topnav {
-  margin: 18px 0 10px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.topnav a {
+  text-decoration: none;
+  padding: 8px 18px;
+  border-radius: 999px;
+  background: #1e1e1e;
+  border: 1px solid #333;
+  color: #ccc;
+  font-size: 0.88rem;
+  font-weight: 500;
+  transition: all 0.2s ease;
+  display: flex;
+  align-items: center;
+  gap: 7px;
+}
+
+.topnav a i {
+  font-size: 0.85rem;
+  opacity: 0.8;
+}
+
+.topnav a:hover {
+  background: linear-gradient(135deg, #4f9eff22, #a78bfa22);
+  border-color: #4f9eff88;
+  color: #fff;
+  box-shadow: 0 0 12px rgba(79, 158, 255, 0.2);
+  transform: translateY(-2px);
+}
+
+/* ══════════════════════════════
+   MAIN CONTENT
+══════════════════════════════ */
+.content {
+  background: #141414;
+  border: 1px solid #2a2a2a;
+  border-radius: 16px;
+  padding: 40px 44px;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.3);
+}
+
+/* ── Markdown overrides ── */
+.markdown-body {
+  font-size: 1rem;
+  line-height: 1.75;
+  background: transparent !important;
+  color: #d4d4d4;
+  font-family: 'Inter', sans-serif !important;
+}
+
+.markdown-body > * { max-width: 100%; }
+
+.markdown-body h1,
+.markdown-body h2,
+.markdown-body h3 {
+  color: #f0f0f0;
+  font-weight: 700;
+  border-bottom: 1px solid #2a2a2a;
+  padding-bottom: 8px;
+}
+
+.markdown-body a {
+  color: #4f9eff;
+  text-decoration: none;
+}
+.markdown-body a:hover { text-decoration: underline; }
+
+.markdown-body code {
+  background: #1e1e1e;
+  border: 1px solid #333;
+  color: #a78bfa;
+  border-radius: 4px;
+  padding: 2px 6px;
+  font-size: 0.9em;
+}
+
+.markdown-body pre {
+  background: #1a1a1a;
+  border: 1px solid #333;
+  border-radius: 10px;
+}
+
+/* ══════════════════════════════
+   FOOTER
+══════════════════════════════ */
+.site-footer {
+  margin-top: 48px;
+  padding: 28px 36px;
+  background: #141414;
+  border: 1px solid #2a2a2a;
+  border-radius: 16px;
+}
+
+.site-footer h2 {
+  margin: 0 0 16px;
+  font-size: 1.1rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  color: #666;
+}
+
+.contact-links {
   display: flex;
   flex-wrap: wrap;
   gap: 12px;
 }
 
-.topnav a {
-  text-decoration: none;
-  padding: 8px 16px;
-  border-radius: 20px;
-  border: 1px solid #d0d7de;
-  background: #f6f8fa;
-  color: #1f6feb;
-  font-size: 0.95rem;
+.contact-links a {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 9px 18px;
+  background: #1e1e1e;
+  border: 1px solid #333;
+  border-radius: 999px;
+  font-size: 0.92rem;
   font-weight: 500;
+  text-decoration: none;
+  color: #ccc;
   transition: all 0.2s ease;
 }
 
-.topnav a:hover {
-  background: #1f6feb;
-  color: white;
-  border-color: #1f6feb;
-  transform: translateY(-1px);
-  box-shadow: 0 3px 8px rgba(0,0,0,0.12);
-}
-
-.content {
-  margin-top: 25px;
-  background: white;
-  padding: 30px;
-  border-radius: 10px;
-  box-shadow: 0 2px 6px rgba(0,0,0,0.05);
-}
-
-.markdown-body {
-  font-size: 1rem;
-  line-height: 1.6;
-  background: transparent;
-  color: #333;
-}
-
-.site-footer {
-  margin-top: 60px;
-  padding-top: 16px;
-  border-top: 1px solid #eee;
-}
-
-/* remove GitHub markdown width restriction */
-.markdown-body > * {
-  max-width: 100%;
-}
-
-.contact-links {
-  margin-top: 10px;
-}
-
-.contact-links a {
-  display: block;          /* forces new line */
-  margin-bottom: 10px;     /* spacing between items */
-  font-size: 1.1rem;
-  text-decoration: none;
-  color: #1f6feb;
+.contact-links a:hover {
+  border-color: #4f9eff88;
+  color: #fff;
+  background: #1a2a3a;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 14px rgba(79,158,255,0.15);
 }
 
 .contact-links a i {
-  margin-right: 10px;      /* spacing between icon and text */
-  width: 20px;
+  font-size: 1rem;
+  color: #4f9eff;
 }
 
-.contact-links a:hover {
-  text-decoration: underline;
-}
-
-/* Repository button styling */
-
+/* ══════════════════════════════
+   REPO / PDF BUTTONS
+══════════════════════════════ */
 .repo-button {
-  display: inline-block;
-  margin-top: 10px;
-  padding: 8px 16px;
-  background: #24292e;
-  color: white;
-  border-radius: 6px;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 12px;
+  padding: 9px 18px;
+  background: #1e1e1e;
+  border: 1px solid #444;
+  color: #e8e8e8;
+  border-radius: 8px;
   text-decoration: none;
   font-size: 0.9rem;
   font-weight: 500;
   transition: all 0.2s ease;
 }
 
-.repo-button i {
-  margin-right: 6px;
-}
-
 .repo-button:hover {
-  background: #0366d6;
-  transform: translateY(-1px);
+  background: #4f9eff;
+  border-color: #4f9eff;
+  color: #fff;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 14px rgba(79,158,255,0.3);
 }
 
 .repo-button.pdf {
-  background: #b91c1c;
+  border-color: #7f1d1d;
+  color: #fca5a5;
 }
+
 .repo-button.pdf:hover {
-  background: #dc2626;
+  background: #b91c1c;
+  border-color: #b91c1c;
+  color: #fff;
+  box-shadow: 0 4px 14px rgba(185,28,28,0.3);
 }
