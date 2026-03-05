@@ -27,6 +27,7 @@ Expected: May 2026</p>
 <li>Field Robotics</li>
 <li>Assistive Robotics</li>
 <li>Reinforcement Learning</li>
+<li>Legged Robots (Non-Linear Control)</li>
 </ul>
 
 </div>
