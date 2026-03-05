@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Projects and Competitions
+title: Projects
 permalink: /projects/
 ---
 
