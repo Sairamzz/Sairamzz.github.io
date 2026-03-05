@@ -10,7 +10,7 @@ permalink: /education/
 
 <div>
 
-<img src="/assets/images/northeastern_university_logo.jpg" style="height:60px; margin-bottom:10px;">
+<img src="/assets/images/northeastern_university_logo.jpg" style="height:100px; margin-bottom:10px;">
 
 <h3>Northeastern University</h3>
 <p><em>Boston, MA</em></p>
@@ -33,7 +33,7 @@ Expected: May 2026</p>
 
 <div>
 
-<img src="/assets/images/vitchennai_logo.jpg" style="height:60px; margin-bottom:10px;">
+<img src="/assets/images/vitchennai_logo.jpg" style="height:100px; margin-bottom:10px;">
 
 <h3>Vellore Institute of Technology</h3>
 <p><em>Chennai, India</em></p>
