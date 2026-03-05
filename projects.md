@@ -64,7 +64,7 @@ Key components:
 **Project Repository:**  
 
 <a href="https://github.com/Sairamzz/MR_PathPlanner" target="_blank" class="repo-button">
-<i class="fa-brands fa-github"></i> Path Planner Repository
+<i class="fa-brands fa-github"></i> APG-RRT Path Planner
 </a>
 
 ---
@@ -86,7 +86,7 @@ Key components:
 **Project Repository:**  
 
 <a href="https://github.com/Sairamzz/Structure_From_Motion" target="_blank" class="repo-button">
-<i class="fa-brands fa-github"></i> SfM Pipeline Repository
+<i class="fa-brands fa-github"></i> SfM Pipeline
 </a>
 
 ---
@@ -107,5 +107,5 @@ Key components:
 **Project Repository:**  
 
 <a href="https://github.com/Sairamzz/Camera-Lidar-Extrinsic-Calibration-On-the-fly" target="_blank" class="repo-button">
-<i class="fa-brands fa-github"></i> Calibration Repository
+<i class="fa-brands fa-github"></i> Extrinsic Calibration
 </a>
