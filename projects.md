@@ -12,16 +12,19 @@ permalink: /projects/
 
 ![Jenga Robot](../assets/images/projects/jenga.jpeg)
 
-Developed a robotic manipulation system capable of **playing Jenga autonomously** using computer vision and motion planning.
+Developed an autonomous robotic manipulation system that integrates computer vision and motion planning to interact with a Jenga tower.
 
 Key components:
 
-- Implemented **OpenCV-based perception** for detecting and localizing Jenga blocks.
-- Designed algorithms for **safe block extraction and placement**.
-- Integrated perception and control with the robotic arm to perform **precise manipulation tasks**.
+- Implemented an **OpenCV-based** vision pipeline to detect, segment, and localize individual Jenga blocks.
+- Designed **motion planning** strategies to identify stable blocks and perform controlled extraction without destabilizing the tower.
+- Integrated **perception** and **manipulation** with the robotic arm to achieve reliable block interaction and placement.
 
-**Repository:**  
-[Jengics GitHub](https://github.com/Sairamzz/Jengics)
+**Project Repository:**  
+
+<a href="https://github.com/Sairamzz/Jengics" target="_blank" class="repo-button">
+<i class="fa-brands fa-github"></i> Jengics
+</a>
 
 ---
 
@@ -29,16 +32,19 @@ Key components:
 
 ![Autonomous Mobile Robot](../assets/images/projects/amr.jpeg)
 
-Designed and implemented an **Autonomous Mobile Robot (AMR)** capable of mapping, localization, and navigation in indoor environments.
+Designed and implemented an **Autonomous Mobile Robot (AMR)** capable of mapping, localization, and navigation in indoor environments using the ROS 2 framework.
 
 Key components:
 
-- Built using **ROS 2, SLAM, and path planning frameworks**.
-- Tested in **Gazebo simulation and real hardware setups**.
-- Implemented **Cartographer SLAM, AMCL localization, and Navigation2 stack**.
+- Built a ROS 2-based mobile robotics stack integrating **Cartographer SLAM for map generation** and **AMCL for probabilistic localization**.
+- Configured the **Navigation2 framework** with global and local planners (A* / DWB) to enable goal-driven navigation with dynamic obstacle avoidance.
+- Validated the system both in **Gazebo simulation and real hardware**, integrating onboard **LiDAR** sensing for **mapping** and **perception**.
 
-**Repository:**  
-[AMR GitHub](https://github.com/Sairamzz)
+**Project Repository:**  
+
+<a href="https://github.com/Sairamzz/Autonomous-Mobile-Robot" target="_blank" class="repo-button">
+<i class="fa-brands fa-github"></i> AMR
+</a>
 
 ---
 
@@ -46,17 +52,20 @@ Key components:
 
 ![APG RRT](../assets/images/projects/apgrrt.jpeg)
 
-Implemented an **Adaptive Path-Guided Rapidly-Exploring Random Tree (APG-RRT)** planner for mobile robot navigation.
+Implemented an **Adaptive Path-Guided Rapidly-Exploring Random Tree (APG-RRT)** planner for mobile robot navigation and evaluated its performance against the standard RRT algorithm.
 
 Key components:
 
 - Adaptive sampling-based path planning algorithm.
-- Evaluated performance across multiple **2D environments**.
-- Integrated with **TurtleBot3 in Gazebo** using custom maps.
-- Achieved **~25% faster path generation compared to baseline RRT**.
+- Evaluated planner performance across multiple **2D benchmark environments** including long corridors, right-angle bends, and cluttered obstacle maps.
+- Integrated the planner with **TurtleBot3 in Gazebo** using custom occupancy maps for navigation testing.
+- Demonstrated **~25% reduction in path generation time** compared to baseline RRT while maintaining feasible navigation paths.
 
-**Repository:**  
-[Path Planner GitHub](https://github.com/Sairamzz)
+**Project Repository:**  
+
+<a href="https://github.com/Sairamzz/MR_PathPlanner" target="_blank" class="repo-button">
+<i class="fa-brands fa-github"></i> Path Planner Repository
+</a>
 
 ---
 
@@ -64,17 +73,21 @@ Key components:
 
 ![SfM Reconstruction](../assets/images/projects/sfm.jpeg)
 
-Implemented a full **Structure-from-Motion pipeline** to reconstruct 3D scenes and estimate camera poses from 2D images.
+Implemented a complete **Structure-from-Motion (SfM) pipeline** to recover camera poses and reconstruct 3D scene geometry from multiple 2D images.
 
 Key components:
 
-- Feature matching and **epipolar geometry estimation**.
-- **Triangulation and incremental camera pose estimation**.
-- Global **bundle adjustment using GTSAM**.
-- Validated reconstruction accuracy using **COLMAP calibration outputs**.
+- Extracted and matched visual features to establish **multi-view correspondences across image pairs**.
+- Estimated relative camera motion using **epipolar geometry and incremental PnP-based pose estimation**.
+- Generated 3D landmarks through **triangulation and incremental reconstruction** as additional views were registered.
+- Performed **global bundle adjustment using GTSAM** to jointly optimize camera poses and 3D point estimates.
+- Evaluated reconstruction accuracy by comparing intrinsic parameters and results against **COLMAP calibration outputs**.
 
-**Repository:**  
-[SfM Pipeline GitHub](https://github.com/Sairamzz)
+**Project Repository:**  
+
+<a href="https://github.com/Sairamzz/Structure_From_Motion" target="_blank" class="repo-button">
+<i class="fa-brands fa-github"></i> SfM Pipeline Repository
+</a>
 
 ---
 
@@ -82,14 +95,17 @@ Key components:
 
 ![Camera LiDAR Calibration](../assets/images/projects/calibration.jpeg)
 
-Developed a pipeline to estimate the **6-DoF extrinsic transformation between camera and LiDAR sensors** during runtime.
+Developed a pipeline to estimate the **6-DoF extrinsic transformation between camera and LiDAR sensors** during runtime using geometric feature alignment.
 
 Key components:
 
-- Processed synchronized LiDAR point clouds and camera images.
-- Extracted geometric features using **KD-Tree search and Canny edge detection**.
+- Processed synchronized LiDAR point clouds and camera images to extract **depth discontinuities and visual edge features**.
+- Identified corresponding geometric structures using **KD-Tree search and Canny edge detection**.
 - Optimized the camera-LiDAR transform using **grid search and pose refinement**.
-- Validated calibration results through **visual overlays and robustness tests**.
+- Validated calibration quality through **edge overlay visualization, robustness tests with injected offsets, and quantitative alignment metrics**.
 
-**Repository:**  
-[Camera-LiDAR Calibration GitHub](https://github.com/Sairamzz)
+**Project Repository:**  
+
+<a href="https://github.com/Sairamzz/Camera-Lidar-Extrinsic-Calibration-On-the-fly" target="_blank" class="repo-button">
+<i class="fa-brands fa-github"></i> Calibration Repository
+</a>
