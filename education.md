@@ -15,10 +15,10 @@ permalink: /education/
 <h3>Northeastern University</h3>
 <p><em>Boston, MA</em></p>
 
-<p><strong>Master of Science in Robotics</strong><br>
+<p><strong>Master of Science in Robotics, Electrical and Computer Engineering </strong><br>
 Expected: May 2026</p>
 
-<p><strong>Relevant Coursework</strong></p>
+<p><strong>Related Coursework</strong></p>
 
 <ul>
 <li>Robot Sensing and Navigation</li>
@@ -39,10 +39,10 @@ Expected: May 2026</p>
 <h3>Vellore Institute of Technology</h3>
 <p><em>Chennai, India</em></p>
 
-<p><strong>Bachelor of Technology – Mechatronics and Automation</strong><br>
+<p><strong>Bachelor of Technology in Mechatronics and Automation</strong><br>
 May 2024</p>
 
-<p><strong>Relevant Coursework</strong></p>
+<p><strong>Related Coursework</strong></p>
 
 <ul>
 <li>Industrial Automation</li>
