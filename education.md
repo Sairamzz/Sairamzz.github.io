@@ -12,19 +12,22 @@ permalink: /education/
 
 <img src="/assets/images/northeastern_university_logo.jpg" style="height:60px; margin-bottom:10px;">
 
-### Northeastern University  
-*Boston, MA*  
-**Master of Science in Robotics**  
-Expected: May 2026  
+<h3>Northeastern University</h3>
+<p><em>Boston, MA</em></p>
 
-**Relevant Coursework**
+<p><strong>Master of Science in Robotics</strong><br>
+Expected: May 2026</p>
 
-- Robot Sensing and Navigation  
-- Mobile Robotics  
-- Robot Mechanics and Control  
-- Field Robotics  
-- Assistive Robotics  
-- Reinforcement Learning  
+<p><strong>Relevant Coursework</strong></p>
+
+<ul>
+<li>Robot Sensing and Navigation</li>
+<li>Mobile Robotics</li>
+<li>Robot Mechanics and Control</li>
+<li>Field Robotics</li>
+<li>Assistive Robotics</li>
+<li>Reinforcement Learning</li>
+</ul>
 
 </div>
 
@@ -32,20 +35,23 @@ Expected: May 2026
 
 <img src="/assets/images/vitchennai_logo.jpg" style="height:60px; margin-bottom:10px;">
 
-### Vellore Institute of Technology  
-*Chennai, India*  
-**Bachelor of Technology – Mechatronics and Automation**  
-May 2024  
+<h3>Vellore Institute of Technology</h3>
+<p><em>Chennai, India</em></p>
 
-**Relevant Coursework**
+<p><strong>Bachelor of Technology – Mechatronics and Automation</strong><br>
+May 2024</p>
 
-- Industrial Automation  
-- PLC 
-- Machine Learning  
-- Computer Vision  
-- Internet of Things (IoT)  
-- Robot Mechanics  
-- Product Design and Development  
+<p><strong>Relevant Coursework</strong></p>
+
+<ul>
+<li>Industrial Automation</li>
+<li>PLC</li>
+<li>Machine Learning</li>
+<li>Computer Vision</li>
+<li>Internet of Things (IoT)</li>
+<li>Robot Mechanics</li>
+<li>Product Design and Development</li>
+</ul>
 
 </div>
 
