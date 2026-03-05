@@ -70,25 +70,22 @@
 }
 
 .contact-links {
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-  font-size: 1.05rem;
+  margin-top: 10px;
 }
 
 .contact-links a {
+  display: block;          /* forces new line */
+  margin-bottom: 10px;     /* spacing between items */
+  font-size: 1.1rem;
   text-decoration: none;
   color: #1f6feb;
-  display: flex;
-  align-items: center;
-  gap: 10px;
+}
+
+.contact-links a i {
+  margin-right: 10px;      /* spacing between icon and text */
+  width: 20px;
 }
 
 .contact-links a:hover {
   text-decoration: underline;
-}
-
-.contact-links i {
-  font-size: 1.2rem;
-  width: 20px;
 }
