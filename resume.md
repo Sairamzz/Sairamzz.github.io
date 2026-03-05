@@ -7,7 +7,7 @@ permalink: /resume/
 # Resume
 
 <p>
-  <a class="repo-button" href="/assets/files/Sairam_Sridharan_Resume.pdf" target="_blank">
+  <a class="repo-button pdf" href="/assets/files/Sairam_Sridharan_Resume.pdf" target="_blank">
     <i class="fa-solid fa-file-pdf"></i> Download PDF
   </a>
 </p>
