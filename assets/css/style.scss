@@ -13,7 +13,9 @@
 
 .site-title {
   margin: 0;
-  font-size: 2.3rem;
+  font-size: 2.6rem;
+  font-weight: 700;
+  letter-spacing: -0.5px;
 }
 
 .site-title a {
@@ -22,9 +24,10 @@
 }
 
 .site-tagline {
-  margin: 6px 0 14px;
-  color: #666;
-  font-size: 0.95rem;
+  margin-top: 6px;
+  color: #6a737d;
+  font-size: 1.05rem;
+  font-weight: 400;
 }
 
 .topnav {
