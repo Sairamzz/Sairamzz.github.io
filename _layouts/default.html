@@ -4,18 +4,16 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>{{ page.title }} | {{ site.title }}</title>
-
-  <!-- GitHub markdown styling -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/5.6.1/github-markdown.min.css">
-
-  <!-- Custom styles -->
   <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
-
 <body>
-  <div class="wrap">
 
+  <!-- Particles background -->
+  <canvas id="particles-bg" style="position:fixed; top:0; left:0; width:100%; height:100%; z-index:0; pointer-events:none;"></canvas>
+
+  <div class="wrap">
     <header class="site-header">
       <div class="titleblock">
         <h1 class="site-title">
@@ -23,39 +21,102 @@
         </h1>
         <p class="site-tagline">{{ site.description }}</p>
       </div>
-
       {% include nav.html %}
     </header>
-
     <main class="content markdown-body">
       {{ content }}
     </main>
-
     <footer class="site-footer">
-    
-    <h2>Contact</h2>
-    
-    <div class="contact-links">
-    
-    <a href="mailto:sridharan.sai@northeastern.edu">
-    <i class="fa-solid fa-envelope"></i>
-    sridharan.sai@northeastern.edu
-    </a>
-    
-    <a href="https://www.linkedin.com/in/sairam-sridharan-6640441b9/" target="_blank">
-    <i class="fa-brands fa-linkedin"></i>
-    LinkedIn
-    </a>
-    
-    <a href="https://github.com/Sairamzz" target="_blank">
-    <i class="fa-brands fa-github"></i>
-    GitHub
-    </a>
-    
-    </div>
-    
-    </footer>
 
+      <h2>Contact</h2>
+
+      <div class="contact-links">
+
+        <a href="mailto:sridharan.sai@northeastern.edu">
+          <i class="fa-solid fa-envelope"></i>
+          sridharan.sai@northeastern.edu
+        </a>
+
+        <a href="https://www.linkedin.com/in/sairam-sridharan-6640441b9/" target="_blank">
+          <i class="fa-brands fa-linkedin"></i>
+          LinkedIn
+        </a>
+
+        <a href="https://github.com/Sairamzz" target="_blank">
+          <i class="fa-brands fa-github"></i>
+          GitHub
+        </a>
+
+      </div>
+
+    </footer>
   </div>
+
+  <!-- Particles script -->
+  <script>
+    const canvas = document.getElementById('particles-bg');
+    const ctx = canvas.getContext('2d');
+    let W, H, particles;
+    const NUM = 90, MAX_DIST = 140;
+    const COLORS = ['#4f9eff', '#a78bfa', '#ffffff'];
+
+    function resize() {
+      W = canvas.width = window.innerWidth;
+      H = canvas.height = window.innerHeight;
+    }
+
+    function mkParticle() {
+      return {
+        x: Math.random() * W,
+        y: Math.random() * H,
+        vx: (Math.random() - 0.5) * 0.5,
+        vy: (Math.random() - 0.5) * 0.5,
+        r: Math.random() * 2 + 1,
+        color: COLORS[Math.floor(Math.random() * COLORS.length)],
+        alpha: Math.random() * 0.5 + 0.2
+      };
+    }
+
+    function draw() {
+      ctx.clearRect(0, 0, W, H);
+
+      for (let i = 0; i < NUM; i++) {
+        for (let j = i + 1; j < NUM; j++) {
+          const dx = particles[i].x - particles[j].x;
+          const dy = particles[i].y - particles[j].y;
+          const dist = Math.sqrt(dx * dx + dy * dy);
+          if (dist < MAX_DIST) {
+            ctx.beginPath();
+            ctx.moveTo(particles[i].x, particles[i].y);
+            ctx.lineTo(particles[j].x, particles[j].y);
+            ctx.strokeStyle = `rgba(79, 158, 255, ${(1 - dist / MAX_DIST) * 0.18})`;
+            ctx.lineWidth = 0.8;
+            ctx.stroke();
+          }
+        }
+      }
+
+      for (const p of particles) {
+        ctx.beginPath();
+        ctx.arc(p.x, p.y, p.r, 0, Math.PI * 2);
+        ctx.fillStyle = p.color;
+        ctx.globalAlpha = p.alpha;
+        ctx.fill();
+        ctx.globalAlpha = 1;
+        p.x += p.vx;
+        p.y += p.vy;
+        if (p.x < 0 || p.x > W) p.vx *= -1;
+        if (p.y < 0 || p.y > H) p.vy *= -1;
+      }
+
+      requestAnimationFrame(draw);
+    }
+
+    window.addEventListener('resize', resize);
+    resize();
+    particles = Array.from({ length: NUM }, mkParticle);
+    draw();
+  </script>
+
 </body>
 </html>
