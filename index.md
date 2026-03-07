@@ -16,7 +16,7 @@ title: About
   <div style="grid-column:1/-1; background:#1e1e1e; border:1px solid #2a2a2a; border-radius:14px; padding:26px;">
     <div style="font-size:0.75rem; font-weight:700; letter-spacing:1.5px; text-transform:uppercase; color:#4f9eff; margin-bottom:12px;">Who I Am</div>
     <p style="color:#e8e8e8; font-size:1rem; line-height:1.85; margin:0;">
-      Hi, I'm <strong>Sairam Sridharan</strong> — a Robotics grad student at Northeastern University, originally from Chennai where I did my undergrad at VIT University. I'd describe myself as a curious person who loves asking questions and searching for answers. I have a strong analytical mindset and a real passion for solving complex robotics problems.
+      Hi, I'm <strong>Sairam Sridharan</strong>, a Robotics grad student at Northeastern University, originally from Chennai where I did my undergrad at VIT University. I'd describe myself as a curious person who loves asking questions and searching for answers. I have a strong analytical mindset and a real passion for solving complex robotics problems.
     </p>
   </div>
 
@@ -32,7 +32,7 @@ title: About
   <div style="background:#1e1e1e; border:1px solid #2a2a2a; border-radius:14px; padding:26px;">
     <div style="font-size:0.75rem; font-weight:700; letter-spacing:1.5px; text-transform:uppercase; color:#4f9eff; margin-bottom:12px;">My Approach</div>
     <p style="color:#e8e8e8; font-size:1rem; line-height:1.85; margin:0;">
-      I've gained experience on both the mechanical and software sides — from CAD and prototyping to control and navigation algorithms. Over time I've gravitated toward the software side, but I think real robotics happens at the intersection of both, so I always enjoy collaborating across the full system.
+      I've gained experience on both the mechanical and software sides, from CAD and prototyping to control and navigation algorithms. Over time I've gravitated toward the software side, but I think real robotics happens at the intersection of both, so I always enjoy collaborating across the full system.
     </p>
   </div>
 
@@ -53,8 +53,8 @@ title: About
   <div style="background:#1e1e1e; border:1px solid #2a2a2a; border-radius:14px; padding:26px;">
     <div style="font-size:0.75rem; font-weight:700; letter-spacing:1.5px; text-transform:uppercase; color:#4f9eff; margin-bottom:12px;">Currently</div>
     <p style="color:#e8e8e8; font-size:1rem; line-height:1.85; margin:0;">
-      MS Robotics @ Northeastern University<br>
-      GPA 3.893 / 4.00 · Boston, MA<br>
+      MS Robotics @ Northeastern University · Boston, MA<br>
+      GPA 3.893 / 4.00<br>
       Expected May 2026
     </p>
   </div>
