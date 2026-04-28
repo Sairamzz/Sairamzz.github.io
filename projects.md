@@ -114,17 +114,38 @@ Key components:
 
 ## Three-Link Planar Biped Walking using Hybrid Zero Dynamics and Nonlinear Control
 
+![Three-Link Planar Biped](../assets/images/projects/3linkbiped.jpeg)
 
-Designed and implemented a **planar three-link biped model** and developed a control framework for stable walking using nonlinear control and hybrid dynamics.
+Designed and implemented a **three-link planar biped** to study gait generation and closed-loop walking using **hybrid dynamics** and **nonlinear control**.
 
 Key components:
 
-- Modeled the biped system using **Lagrangian dynamics** and derived the manipulator equations.
-- Implemented **Hybrid Zero Dynamics (HZD)** for stable gait generation.
+- Derived the robot dynamics using the **Lagrangian** formulation and expressed them in manipulator form.
+- Used **Hybrid Zero Dynamics (HZD)** for stable reduced-order walking gaits.
 - Designed **Bezier polynomial-based virtual constraints** for joint trajectories.
+- Optimized gait parameters using numerical optimization techniques (MATLAB's fmincon).
 - Simulated walking behavior and analyzed stability using **phase portraits and Poincaré maps**.
-- Optimized gait parameters using numerical optimization techniques.
 
-<a class="repo-button" href="https://github.com/Sairamzz" target="_blank">
-<i class="fa-brands fa-github"></i> Biped Control GitHub
+<a class="repo-button" href="https://github.com/Sairamzz/Planar-Biped-Locomotion" target="_blank">
+<i class="fa-brands fa-github"></i> 3-Link Biped Control GitHub
+</a>
+
+---
+
+## POMDP Navigation in MiniGrid
+
+![RL POMDP](../assets/images/projects/rlminigrid.jpeg)
+
+Implemented a navigation pipeline for partially observable MiniGrid tasks using reinforcement learning methods.
+
+Key components:
+
+- Formulated navigation as a **Partially Observable Markov Decision Process (POMDP)**.
+- Implemented and compared **POMCP, PPO, and A2C** agents.
+- Designed **observation encoding and history-based representations** for partial observability.
+- Applied **reward shaping and exploration strategies** to improve learning efficiency.
+- Evaluated performance across multiple environments with increasing complexity and stochasticity.
+
+<a class="repo-button" href="https://github.com/Sairamzz/RL_MiniGrid" target="_blank">
+<i class="fa-brands fa-github"></i> POMDP Navigation GitHub
 </a>
