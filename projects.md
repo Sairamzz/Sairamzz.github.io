@@ -109,3 +109,22 @@ Key components:
 <a href="https://github.com/Sairamzz/Camera-Lidar-Extrinsic-Calibration-On-the-fly" target="_blank" class="repo-button">
 <i class="fa-brands fa-github"></i> Extrinsic Calibration
 </a>
+
+---
+
+## Three-Link Planar Biped Walking using Hybrid Zero Dynamics and Nonlinear Control
+
+
+Designed and implemented a **planar three-link biped model** and developed a control framework for stable walking using nonlinear control and hybrid dynamics.
+
+Key components:
+
+- Modeled the biped system using **Lagrangian dynamics** and derived the manipulator equations.
+- Implemented **Hybrid Zero Dynamics (HZD)** for stable gait generation.
+- Designed **Bezier polynomial-based virtual constraints** for joint trajectories.
+- Simulated walking behavior and analyzed stability using **phase portraits and Poincaré maps**.
+- Optimized gait parameters using numerical optimization techniques.
+
+<a class="repo-button" href="https://github.com/Sairamzz" target="_blank">
+<i class="fa-brands fa-github"></i> Biped Control GitHub
+</a>
