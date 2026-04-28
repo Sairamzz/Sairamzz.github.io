@@ -126,6 +126,8 @@ Key components:
 - Optimized gait parameters using numerical optimization techniques (MATLAB's fmincon).
 - Simulated walking behavior and analyzed stability using **phase portraits and Poincaré maps**.
 
+**Project Repository:**  
+
 <a class="repo-button" href="https://github.com/Sairamzz/Planar-Biped-Locomotion" target="_blank">
 <i class="fa-brands fa-github"></i> 3-Link Biped Control GitHub
 </a>
@@ -146,6 +148,10 @@ Key components:
 - Applied **reward shaping and exploration strategies** to improve learning efficiency.
 - Evaluated performance across multiple environments with increasing complexity and stochasticity.
 
+**Project Repository:**  
+
 <a class="repo-button" href="https://github.com/Sairamzz/RL_MiniGrid" target="_blank">
 <i class="fa-brands fa-github"></i> POMDP Navigation GitHub
 </a>
+
+---
