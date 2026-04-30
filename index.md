@@ -51,7 +51,7 @@ title: About
 
   <!-- Currently -->
   <div style="background:#1e1e1e; border:1px solid #2a2a2a; border-radius:14px; padding:26px;">
-    <div style="font-size:0.75rem; font-weight:700; letter-spacing:1.5px; text-transform:uppercase; color:#4f9eff; margin-bottom:12px;">Currently</div>
+    <div style="font-size:0.75rem; font-weight:700; letter-spacing:1.5px; text-transform:uppercase; color:#4f9eff; margin-bottom:12px;">Masters</div>
     <p style="color:#e8e8e8; font-size:1rem; line-height:1.85; margin:0;">
       MS Robotics @ Northeastern University · Boston, MA<br>
       GPA 3.919 / 4.00<br>
