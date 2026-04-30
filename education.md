@@ -14,7 +14,7 @@ permalink: /education/
     <p style="margin:8px 0; color:#d4d4d4;"><strong style="color:#f0f0f0;">Location:</strong> Boston, MA</p>
     <p style="margin:8px 0; color:#d4d4d4;"><strong style="color:#f0f0f0;">Degree:</strong> Master of Science in Robotics (Electrical and Computer Engineering)</p>
     <p style="margin:8px 0; color:#d4d4d4;"><strong style="color:#f0f0f0;">Graduation:</strong> Expected May 2026</p>
-    <p style="margin:8px 0; color:#d4d4d4;"><strong style="color:#f0f0f0;">GPA:</strong> 3.893 / 4.00</p>
+    <p style="margin:8px 0; color:#d4d4d4;"><strong style="color:#f0f0f0;">GPA:</strong> 3.919 / 4.00</p>
   </div>
 
   <div style="padding:28px; background:#1e1e1e; border:1px solid #2a2a2a; border-radius:14px; box-shadow:0 4px 20px rgba(0,0,0,0.3);">
