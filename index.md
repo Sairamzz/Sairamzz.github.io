@@ -54,8 +54,8 @@ title: About
     <div style="font-size:0.75rem; font-weight:700; letter-spacing:1.5px; text-transform:uppercase; color:#4f9eff; margin-bottom:12px;">Currently</div>
     <p style="color:#e8e8e8; font-size:1rem; line-height:1.85; margin:0;">
       MS Robotics @ Northeastern University · Boston, MA<br>
-      GPA 3.893 / 4.00<br>
-      Expected May 2026
+      GPA 3.919 / 4.00<br>
+      Graduated: April 2026
     </p>
   </div>
 
