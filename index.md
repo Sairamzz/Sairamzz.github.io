@@ -16,7 +16,7 @@ title: About
   <div style="grid-column:1/-1; background:#1e1e1e; border:1px solid #2a2a2a; border-radius:14px; padding:26px;">
     <div style="font-size:0.75rem; font-weight:700; letter-spacing:1.5px; text-transform:uppercase; color:#4f9eff; margin-bottom:12px;">Who I Am</div>
     <p style="color:#e8e8e8; font-size:1rem; line-height:1.85; margin:0;">
-      Hi, I'm <strong>Sairam Sridharan</strong>, a Robotics grad student at Northeastern University, originally from Chennai where I did my undergrad at VIT University. I'd describe myself as a curious person who loves asking questions and searching for answers. I have a strong analytical mindset and a real passion for solving complex robotics problems.
+      Hi, I'm <strong>Sairam Sridharan</strong>, a robotics engineer and recent Robotics graduate from Northeastern University, originally from Chennai where I completed my undergraduate studies at VIT University. I'd describe myself as a curious person who enjoys asking questions, exploring ideas, and solving challenging engineering problems. I have a strong analytical mindset and a deep interest in building intelligent robotic systems that combine perception, planning, control, and learning.
     </p>
   </div>
 
