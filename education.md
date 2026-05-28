@@ -13,7 +13,7 @@ permalink: /education/
     <h3 style="margin:0 0 12px; color:#4f9eff; font-size:1.1rem; border-bottom:1px solid #2a2a2a; padding-bottom:10px;">Northeastern University</h3>
     <p style="margin:8px 0; color:#d4d4d4;"><strong style="color:#f0f0f0;">Location:</strong> Boston, MA</p>
     <p style="margin:8px 0; color:#d4d4d4;"><strong style="color:#f0f0f0;">Degree:</strong> Master of Science in Robotics (Electrical and Computer Engineering)</p>
-    <p style="margin:8px 0; color:#d4d4d4;"><strong style="color:#f0f0f0;">Graduation:</strong> Expected May 2026</p>
+    <p style="margin:8px 0; color:#d4d4d4;"><strong style="color:#f0f0f0;">Graduation:</strong> April 2026</p>
     <p style="margin:8px 0; color:#d4d4d4;"><strong style="color:#f0f0f0;">GPA:</strong> 3.919 / 4.00</p>
   </div>
 
