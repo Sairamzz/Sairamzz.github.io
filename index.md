@@ -71,7 +71,3 @@ title: About
   </div>
 
 </div>
-
-<p style="text-align:center; margin-top:35px; color:#666; font-size:0.95rem;">
-  The <strong>Projects</strong>, <strong>Experience</strong>, <strong>Education</strong>, and <strong>Resume</strong> pages provide a more detailed overview of my technical work, academic background, and professional journey.
-</p>
