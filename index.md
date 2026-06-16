@@ -16,7 +16,7 @@ title: About
   <div style="grid-column:1/-1; background:#1e1e1e; border:1px solid #2a2a2a; border-radius:14px; padding:26px;">
     <div style="font-size:0.75rem; font-weight:700; letter-spacing:1.5px; text-transform:uppercase; color:#4f9eff; margin-bottom:12px;">Who I Am</div>
     <p style="color:#e8e8e8; font-size:1rem; line-height:1.85; margin:0;">
-      Hi, I'm <strong>Sairam Sridharan</strong>, a robotics engineer and recent Robotics graduate from Northeastern University, originally from Chennai where I completed my undergraduate studies at VIT University. I'd describe myself as a curious person who enjoys asking questions, exploring ideas, and solving challenging engineering problems. I have a strong analytical mindset and a deep interest in building intelligent robotic systems that combine perception, planning, control, and learning.
+      Hi, I'm <strong>Sairam Sridharan</strong>, a robotics engineer with a Master's degree in Robotics from Northeastern University and a Bachelor's degree in Mechatronics and Automation from Vellore Institute of Technology. I'm passionate about building intelligent robotic systems and solving challenging problems involving perception, planning, control, and learning. With a strong analytical mindset and technical knowledge, I enjoy solving challenging engineering problems and translating ideas into robotic solutions.
     </p>
   </div>
 
@@ -24,7 +24,7 @@ title: About
   <div style="background:#1e1e1e; border:1px solid #2a2a2a; border-radius:14px; padding:26px;">
     <div style="font-size:0.75rem; font-weight:700; letter-spacing:1.5px; text-transform:uppercase; color:#4f9eff; margin-bottom:12px;">What I Work On</div>
     <p style="color:#e8e8e8; font-size:1rem; line-height:1.85; margin:0;">
-      I've worked on hands-on robotics projects involving autonomous navigation, robot simulation, manipulation, and ML. My experience spans <strong>sensor fusion, SLAM, motion planning, optimization, computer vision, and ML/DL/RL</strong>.
+      My work focuses on developing robotic systems across autonomous navigation, robot simulation, manipulation, and machine learning. Areas of experience include sensor fusion, SLAM, motion planning, optimization, computer vision, deep learning, reinforcement learning, and robot control.
     </p>
   </div>
 
@@ -32,7 +32,7 @@ title: About
   <div style="background:#1e1e1e; border:1px solid #2a2a2a; border-radius:14px; padding:26px;">
     <div style="font-size:0.75rem; font-weight:700; letter-spacing:1.5px; text-transform:uppercase; color:#4f9eff; margin-bottom:12px;">My Approach</div>
     <p style="color:#e8e8e8; font-size:1rem; line-height:1.85; margin:0;">
-      I've gained experience on both the mechanical and software sides, from CAD and prototyping to control and navigation algorithms. Over time I've gravitated toward the software side, but I think real robotics happens at the intersection of both, so I always enjoy collaborating across the full system.
+      My experience spans both the software and mechanical sides of robotics, from CAD and prototyping to perception, learning, control, and navigation algorithms. Although my interests are primarily focused on autonomy and software development, I believe the most effective robotic systems are built through the integration of hardware and software. I like working across the full robotics stack and solving system-level challenges.
     </p>
   </div>
 
@@ -49,15 +49,16 @@ title: About
     </p>
   </div>
 
-  <!-- Currently -->
-  <div style="background:#1e1e1e; border:1px solid #2a2a2a; border-radius:14px; padding:26px;">
-    <div style="font-size:0.75rem; font-weight:700; letter-spacing:1.5px; text-transform:uppercase; color:#4f9eff; margin-bottom:12px;">Masters</div>
-    <p style="color:#e8e8e8; font-size:1rem; line-height:1.85; margin:0;">
-      MS Robotics @ Northeastern University · Boston, MA<br>
-      GPA 3.919 / 4.00<br>
-      Graduated: April 2026
-    </p>
+<!-- Research Interests -->
+<div style="background:#1e1e1e; border:1px solid #2a2a2a; border-radius:14px; padding:26px;">
+  <div style="font-size:0.75rem; font-weight:700; letter-spacing:1.5px; text-transform:uppercase; color:#4f9eff; margin-bottom:12px;">
+    Research Interests
   </div>
+
+  <p style="color:#e8e8e8; font-size:1rem; line-height:1.85; margin:0;">
+    Autonomous navigation, Robot perception and control, Motion planning, Sensor fusion, Computer vision, Legged locomotion, Reinforcement learning, Deep Learning, Industrial automation, and Robot design and development.
+  </p>
+</div>
 
   <!-- Outside of Work -->
   <div style="background:#1e1e1e; border:1px solid #2a2a2a; border-radius:14px; padding:26px;">

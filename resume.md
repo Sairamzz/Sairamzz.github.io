@@ -7,13 +7,13 @@ permalink: /resume/
 # Resume
 
 <p>
-  <a class="repo-button pdf" href="/assets/files/Sairam_Sridharan_Resume.pdf" target="_blank">
+  <a class="repo-button pdf" href="/assets/files/Sairam_Sridharan_Resume.pdf?v=2" target="_blank">
     <i class="fa-solid fa-file-pdf"></i> Download PDF
   </a>
 </p>
 
 <iframe
-  src="/assets/files/Sairam_Sridharan_Resume.pdf"
+  src="/assets/files/Sairam_Sridharan_Resume.pdf?v=2"
   width="100%"
   height="950"
   style="border:1px solid #eee; border-radius:10px;"
