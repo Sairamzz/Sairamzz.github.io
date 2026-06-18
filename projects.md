@@ -138,6 +138,35 @@ Key components:
 
 ---
 
+## Panoramic Image Stitching for Low-Contrast Images
+
+![Panoramic Stitching](../assets/images/projects/panorama_low_contrast.jpeg)
+
+Developed a computer vision pipeline for panoramic image generation from low-contrast image sequences using feature-based image alignment and stitching techniques.
+
+Key components:
+
+- Enhanced low-contrast images through preprocessing and contrast adjustment techniques.
+- Detected and matched visual features across overlapping images.
+- Estimated image transformations using homography and geometric alignment methods.
+- Generated panoramic views through image warping and stitching.
+
+**Project Repository:**
+
+<a class="repo-button" href="https://github.com/Sairamzz/Panoramic-Image-Stitching-Low-Contrast-Images" target="_blank">
+<i class="fa-brands fa-github"></i> Low-Contrast Image Stitching
+</a>
+
+<br><br>
+
+**Related Work:** Implemented a similar panoramic image stitching pipeline for high-contrast image datasets.
+
+<a class="repo-button" href="https://github.com/Sairamzz/Panoramic-Image-Stitching-High-Contrast-Images" target="_blank">
+<i class="fa-brands fa-github"></i> High-Contrast Image Stitching
+</a>
+
+---
+
 # AI - RL, ML, Neural Networks 
 
 ## POMDP Navigation in MiniGrid
