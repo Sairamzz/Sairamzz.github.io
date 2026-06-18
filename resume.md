@@ -14,7 +14,7 @@ Two resume versions are available, each tailored to different technical roles an
 
 <div style="padding:24px; border:1px solid #2a2a2a; border-radius:12px; background:#1e1e1e;">
 
-<h3> Robotics & Autonomous Systems</h3>
+<h3>Robotics & Autonomous Systems</h3>
 
 <p>
 Focused on robotics software, perception, SLAM, localization, navigation, motion planning, controls, ROS2, and autonomous systems.
@@ -31,7 +31,7 @@ Focused on robotics software, perception, SLAM, localization, navigation, motion
 
 <div style="padding:24px; border:1px solid #2a2a2a; border-radius:12px; background:#1e1e1e;">
 
-<h3> AI / Machine Learning</h3>
+<h3>AI / Machine Learning</h3>
 
 <p>
 Focused on machine learning, deep learning, computer vision, reinforcement learning, and intelligent data-driven systems.
@@ -47,3 +47,18 @@ Focused on machine learning, deep learning, computer vision, reinforcement learn
 </div>
 
 </div>
+
+---
+
+## Robotics & Autonomous Systems Preview
+
+<iframe
+  src="/assets/files/Sairam_Sridharan_Resume_Robotics.pdf?v=4"
+  width="100%"
+  height="950"
+  style="border:1px solid #2a2a2a; border-radius:10px;">
+</iframe>
+
+<p style="margin-top:10px; color:#888; font-size:0.9rem;">
+If the preview does not load in your browser, use the download button above.
+</p>
