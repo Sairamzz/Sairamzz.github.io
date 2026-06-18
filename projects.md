@@ -8,6 +8,8 @@ permalink: /projects/
 
 ---
 
+# Robotics & Autonomous Systems
+
 ## Jenga-Playing Robotic Arm
 
 ![Jenga Robot](../assets/images/projects/jenga.jpeg)
@@ -69,6 +71,30 @@ Key components:
 
 ---
 
+## Three-Link Planar Biped Walking using Hybrid Zero Dynamics and Nonlinear Control
+
+![Three-Link Planar Biped](../assets/images/projects/3linkbiped.jpeg)
+
+Designed and implemented a **three-link planar biped** to study gait generation and closed-loop walking using **hybrid dynamics** and **nonlinear control**.
+
+Key components:
+
+- Derived the robot dynamics using the **Lagrangian** formulation and expressed them in manipulator form.
+- Used **Hybrid Zero Dynamics (HZD)** for stable reduced-order walking gaits.
+- Designed **Bezier polynomial-based virtual constraints** for joint trajectories.
+- Optimized gait parameters using numerical optimization techniques (MATLAB's fmincon).
+- Simulated walking behavior and analyzed stability using **phase portraits and Poincaré maps**.
+
+**Project Repository:**  
+
+<a class="repo-button" href="https://github.com/Sairamzz/Planar-Biped-Locomotion" target="_blank">
+<i class="fa-brands fa-github"></i> 3-Link Biped Control GitHub
+</a>
+
+---
+
+# Perception, Computer Vision & Localization
+
 ## Structure-from-Motion (SfM) 3D Reconstruction
 
 ![SfM Reconstruction](../assets/images/projects/sfm.jpeg)
@@ -112,27 +138,7 @@ Key components:
 
 ---
 
-## Three-Link Planar Biped Walking using Hybrid Zero Dynamics and Nonlinear Control
-
-![Three-Link Planar Biped](../assets/images/projects/3linkbiped.jpeg)
-
-Designed and implemented a **three-link planar biped** to study gait generation and closed-loop walking using **hybrid dynamics** and **nonlinear control**.
-
-Key components:
-
-- Derived the robot dynamics using the **Lagrangian** formulation and expressed them in manipulator form.
-- Used **Hybrid Zero Dynamics (HZD)** for stable reduced-order walking gaits.
-- Designed **Bezier polynomial-based virtual constraints** for joint trajectories.
-- Optimized gait parameters using numerical optimization techniques (MATLAB's fmincon).
-- Simulated walking behavior and analyzed stability using **phase portraits and Poincaré maps**.
-
-**Project Repository:**  
-
-<a class="repo-button" href="https://github.com/Sairamzz/Planar-Biped-Locomotion" target="_blank">
-<i class="fa-brands fa-github"></i> 3-Link Biped Control GitHub
-</a>
-
----
+# AI - RL, ML, Neural Networks 
 
 ## POMDP Navigation in MiniGrid
 
@@ -155,3 +161,61 @@ Key components:
 </a>
 
 ---
+
+## Parkinson's Disease Classification using Machine Learning
+
+![Parkinson's Disease Classification](../assets/images/projects/Parkinsons.jpeg)
+
+Developed a Parkinson's Disease classification pipeline using speech-derived biomarkers and supervised machine learning techniques.
+
+Key components:
+
+- Applied feature selection and preprocessing using acoustic speech features including jitter, shimmer, HNR, RPDE, and MFCCs.
+- Trained and evaluated multiple machine learning models including KNN, SVM, Naive Bayes, Logistic Regression, Random Forest, AdaBoost, and Gradient Boosting.
+- Compared model performance using Accuracy, Recall, F1-Score, and AUC metrics.
+
+**Project Repository:**
+
+<a class="repo-button" href="https://github.com/Sairamzz/Parkinsons-Disease-Classification" target="_blank">
+<i class="fa-brands fa-github"></i> Parkinson's Disease Classification
+</a>
+
+---
+
+## Fault Diagnosis of IC Engine Gearbox using Voting Classifiers
+
+![Gearbox Fault Diagnosis](../assets/images/projects/Gearbox.jpeg)
+
+Developed a machine learning framework for gearbox fault diagnosis using vibration signal analysis and ensemble voting classifiers.
+
+Key components:
+
+- Collected vibration data from healthy and defective gearbox systems under controlled operating conditions.
+- Extracted statistical, histogram, and ARMA-based features from vibration signals.
+- Implemented voting-based ensemble classifiers for automated fault detection and condition monitoring.
+
+**Project Repository:**
+
+<a class="repo-button" href="https://github.com/Sairamzz/ML-GearBox-Fault-Diagnosis" target="_blank">
+<i class="fa-brands fa-github"></i> Gearbox Fault Diagnosis
+</a>
+
+---
+
+## Clutch Fault Diagnosis using WiSARD Classifier
+
+![Clutch Fault Diagnosis](../assets/images/projects/Clutch.jpeg)
+
+Developed a clutch fault diagnosis framework using vibration signal processing, deep feature extraction, and WiSARD-based classification.
+
+Key components:
+
+- Converted vibration signals into image representations for machine learning analysis.
+- Extracted discriminative features using pre-trained convolutional neural networks.
+- Implemented a WiSARD classifier to identify multiple clutch fault conditions and component failures.
+
+**Project Repository:**
+
+<a class="repo-button" href="https://github.com/Sairamzz/ML-Clutch-Fault-Diagnosis" target="_blank">
+<i class="fa-brands fa-github"></i> Clutch Fault Diagnosis
+</a>
