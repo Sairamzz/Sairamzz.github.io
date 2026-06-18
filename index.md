@@ -36,22 +36,56 @@ title: About
     </p>
   </div>
 
-  <!-- Tools & Skills — full width -->
-  <div style="grid-column:1/-1; background:#1e1e1e; border:1px solid #2a2a2a; border-radius:14px; padding:26px;">
-    <div style="font-size:0.75rem; font-weight:700; letter-spacing:1.5px; text-transform:uppercase; color:#4f9eff; margin-bottom:18px;">Tools & Skills</div>
-    <p style="color:#e8e8e8; font-size:1rem; line-height:1.85; margin:0 0 10px;">
-      <strong>Programming:</strong>
-      <span style="color:#bbb;"> Python, C++, Rust, MATLAB, SIMULINK</span>
-    </p>
-    <p style="color:#e8e8e8; font-size:1rem; line-height:1.85; margin:0 0 10px;">
-      <strong>Software and Tools:</strong>
-      <span style="color:#bbb;"> ROS1/ROS2, Linux, Gazebo, MuJoCo, OpenCV, PyTorch, Docker, Git, SolidWorks, Raspberry Pi, GTSAM </span>
-    </p>
-    <p style="color:#e8e8e8; font-size:1rem; line-height:1.85; margin:0;">
-      <strong>Robotics & AI:</strong>
-      <span style="color:#bbb;"> SLAM, Visual-Inertial Odometry, Sensor Fusion, Path Planning, Motion Planning, Computer Vision, Machine Learning, Deep Learning, Reinforcement Learning, Neural Networks</span>
-    </p>
+<!-- Tools & Skills — full width -->
+<div style="grid-column:1/-1; background:#1e1e1e; border:1px solid #2a2a2a; border-radius:14px; padding:26px;">
+  <div style="font-size:0.75rem; font-weight:700; letter-spacing:1.5px; text-transform:uppercase; color:#4f9eff; margin-bottom:18px;">
+    Tools & Skills
   </div>
+
+  <p style="color:#e8e8e8; font-size:1rem; line-height:1.85; margin:0 0 8px;">
+    <strong>Programming:</strong>
+  </p>
+  <div style="display:flex; flex-wrap:wrap; gap:8px; margin-bottom:16px;">
+    <span style="background:#141414; border:1px solid #333; border-radius:999px; padding:6px 12px; color:#bbb; font-size:0.85rem;">Python</span>
+    <span style="background:#141414; border:1px solid #333; border-radius:999px; padding:6px 12px; color:#bbb; font-size:0.85rem;">C++</span>
+    <span style="background:#141414; border:1px solid #333; border-radius:999px; padding:6px 12px; color:#bbb; font-size:0.85rem;">Rust</span>
+    <span style="background:#141414; border:1px solid #333; border-radius:999px; padding:6px 12px; color:#bbb; font-size:0.85rem;">MATLAB</span>
+    <span style="background:#141414; border:1px solid #333; border-radius:999px; padding:6px 12px; color:#bbb; font-size:0.85rem;">SIMULINK</span>
+  </div>
+
+  <p style="color:#e8e8e8; font-size:1rem; line-height:1.85; margin:0 0 8px;">
+    <strong>Software & Tools:</strong>
+  </p>
+  <div style="display:flex; flex-wrap:wrap; gap:8px; margin-bottom:16px;">
+    <span style="background:#141414; border:1px solid #333; border-radius:999px; padding:6px 12px; color:#bbb; font-size:0.85rem;">ROS1/ROS2</span>
+    <span style="background:#141414; border:1px solid #333; border-radius:999px; padding:6px 12px; color:#bbb; font-size:0.85rem;">Linux</span>
+    <span style="background:#141414; border:1px solid #333; border-radius:999px; padding:6px 12px; color:#bbb; font-size:0.85rem;">Gazebo</span>
+    <span style="background:#141414; border:1px solid #333; border-radius:999px; padding:6px 12px; color:#bbb; font-size:0.85rem;">MuJoCo</span>
+    <span style="background:#141414; border:1px solid #333; border-radius:999px; padding:6px 12px; color:#bbb; font-size:0.85rem;">OpenCV</span>
+    <span style="background:#141414; border:1px solid #333; border-radius:999px; padding:6px 12px; color:#bbb; font-size:0.85rem;">PyTorch</span>
+    <span style="background:#141414; border:1px solid #333; border-radius:999px; padding:6px 12px; color:#bbb; font-size:0.85rem;">Docker</span>
+    <span style="background:#141414; border:1px solid #333; border-radius:999px; padding:6px 12px; color:#bbb; font-size:0.85rem;">Git</span>
+    <span style="background:#141414; border:1px solid #333; border-radius:999px; padding:6px 12px; color:#bbb; font-size:0.85rem;">SolidWorks</span>
+    <span style="background:#141414; border:1px solid #333; border-radius:999px; padding:6px 12px; color:#bbb; font-size:0.85rem;">Raspberry Pi</span>
+    <span style="background:#141414; border:1px solid #333; border-radius:999px; padding:6px 12px; color:#bbb; font-size:0.85rem;">GTSAM</span>
+  </div>
+
+  <p style="color:#e8e8e8; font-size:1rem; line-height:1.85; margin:0 0 8px;">
+    <strong>Robotics & AI:</strong>
+  </p>
+  <div style="display:flex; flex-wrap:wrap; gap:8px;">
+    <span style="background:#141414; border:1px solid #333; border-radius:999px; padding:6px 12px; color:#bbb; font-size:0.85rem;">SLAM</span>
+    <span style="background:#141414; border:1px solid #333; border-radius:999px; padding:6px 12px; color:#bbb; font-size:0.85rem;">Visual-Inertial Odometry</span>
+    <span style="background:#141414; border:1px solid #333; border-radius:999px; padding:6px 12px; color:#bbb; font-size:0.85rem;">Sensor Fusion</span>
+    <span style="background:#141414; border:1px solid #333; border-radius:999px; padding:6px 12px; color:#bbb; font-size:0.85rem;">Path Planning</span>
+    <span style="background:#141414; border:1px solid #333; border-radius:999px; padding:6px 12px; color:#bbb; font-size:0.85rem;">Motion Planning</span>
+    <span style="background:#141414; border:1px solid #333; border-radius:999px; padding:6px 12px; color:#bbb; font-size:0.85rem;">Computer Vision</span>
+    <span style="background:#141414; border:1px solid #333; border-radius:999px; padding:6px 12px; color:#bbb; font-size:0.85rem;">Machine Learning</span>
+    <span style="background:#141414; border:1px solid #333; border-radius:999px; padding:6px 12px; color:#bbb; font-size:0.85rem;">Deep Learning</span>
+    <span style="background:#141414; border:1px solid #333; border-radius:999px; padding:6px 12px; color:#bbb; font-size:0.85rem;">Reinforcement Learning</span>
+    <span style="background:#141414; border:1px solid #333; border-radius:999px; padding:6px 12px; color:#bbb; font-size:0.85rem;">Neural Networks</span>
+  </div>
+</div>
 
 <!-- Research Interests -->
 <div style="background:#1e1e1e; border:1px solid #2a2a2a; border-radius:14px; padding:26px;">
