@@ -47,6 +47,10 @@ title: About
       <strong>Software and Tools:</strong>
       <span style="color:#bbb;"> ROS, MATLAB, SIMULINK, OpenCV, MuJoCo, PyTorch, Arduino IDE, Git, Docker, SolidWorks</span>
     </p>
+    <p style="color:#e8e8e8; font-size:1rem; line-height:1.85; margin:0;">
+      <strong>Robotics & AI:</strong>
+      <span style="color:#bbb;"> SLAM, Visual-Inertial Odometry, Sensor Fusion, Path Planning, Motion Planning, Computer Vision, Machine Learning, Deep Learning, Reinforcement Learning, Neural Networks</span>
+    </p>
   </div>
 
 <!-- Research Interests -->
