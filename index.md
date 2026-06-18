@@ -41,11 +41,11 @@ title: About
     <div style="font-size:0.75rem; font-weight:700; letter-spacing:1.5px; text-transform:uppercase; color:#4f9eff; margin-bottom:18px;">Tools & Skills</div>
     <p style="color:#e8e8e8; font-size:1rem; line-height:1.85; margin:0 0 10px;">
       <strong>Programming:</strong>
-      <span style="color:#bbb;"> Python, C++, Rust</span>
+      <span style="color:#bbb;"> Python, C++, Rust, MATLAB, SIMULINK</span>
     </p>
-    <p style="color:#e8e8e8; font-size:1rem; line-height:1.85; margin:0;">
+    <p style="color:#e8e8e8; font-size:1rem; line-height:1.85; margin:0 0 10px;">
       <strong>Software and Tools:</strong>
-      <span style="color:#bbb;"> ROS, MATLAB, SIMULINK, OpenCV, MuJoCo, PyTorch, Arduino IDE, Git, Docker, SolidWorks</span>
+      <span style="color:#bbb;"> ROS1/ROS2, Linux, Gazebo, MuJoCo, OpenCV, PyTorch, Docker, Git, SolidWorks, Raspberry Pi, GTSAM </span>
     </p>
     <p style="color:#e8e8e8; font-size:1rem; line-height:1.85; margin:0;">
       <strong>Robotics & AI:</strong>
