@@ -157,8 +157,6 @@ Key components:
 <i class="fa-brands fa-github"></i> Low-Contrast Image Stitching
 </a>
 
-<br><br>
-
 **Related Work:** Implemented a similar panoramic image stitching pipeline for high-contrast image datasets.
 
 <a class="repo-button" href="https://github.com/Sairamzz/Panoramic-Image-Stitching-High-Contrast-Images" target="_blank">
