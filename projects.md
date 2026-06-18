@@ -92,6 +92,7 @@ Key components:
 </a>
 
 ---
+---
 
 # Perception, Computer Vision & Localization
 
@@ -163,6 +164,7 @@ Key components:
 <i class="fa-brands fa-github"></i> High-Contrast Image Stitching
 </a>
 
+---
 ---
 
 # AI - RL, ML, Neural Networks 
