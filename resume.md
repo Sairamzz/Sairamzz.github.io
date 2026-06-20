@@ -21,7 +21,7 @@ Focused on robotics software, perception, SLAM, localization, navigation, motion
 </p>
 
 <a class="repo-button pdf"
-   href="/assets/files/Sairam_Sridharan_Resume_Robotics.pdf?v=4"
+   href="/assets/files/Sairam_Sridharan_Resume_Robotics.pdf?v=10"
    target="_blank">
    <i class="fa-solid fa-file-pdf"></i>
    Download Resume
@@ -38,7 +38,7 @@ Focused on machine learning, deep learning, computer vision, reinforcement learn
 </p>
 
 <a class="repo-button pdf"
-   href="/assets/files/Sairam_Sridharan_Resume_AI_ML.pdf?v=4"
+   href="/assets/files/Sairam_Sridharan_Resume_AI_ML.pdf?v=10"
    target="_blank">
    <i class="fa-solid fa-file-pdf"></i>
    Download Resume
@@ -53,7 +53,7 @@ Focused on machine learning, deep learning, computer vision, reinforcement learn
 ## Robotics & Autonomous Systems Preview
 
 <iframe
-  src="/assets/files/Sairam_Sridharan_Resume_Robotics.pdf?v=4"
+  src="/assets/files/Sairam_Sridharan_Resume_Robotics.pdf?v=10"
   width="100%"
   height="950"
   style="border:1px solid #2a2a2a; border-radius:10px;">
@@ -68,7 +68,7 @@ If the preview does not load in your browser, use the download button above.
 ## AI / Machine Learning Preview
 
 <iframe
-  src="/assets/files/Sairam_Sridharan_Resume_AI_ML.pdf?v=4"
+  src="/assets/files/Sairam_Sridharan_Resume_AI_ML.pdf?v=10"
   width="100%"
   height="950"
   style="border:1px solid #2a2a2a; border-radius:10px;">
