@@ -169,6 +169,27 @@ Key components:
 
 # AI - RL, ML, Neural Networks 
 
+## Robotic Manipulation using SmolVLA (Physical AI Hackathon)
+
+![VLA Robotic Manipulation](../assets/images/projects/VLA_Manipulator.png)
+
+Developed a learning-based robotic manipulation pipeline using **LeRobot** and **SmolVLA** to enable autonomous food assembly with a Seeed reBot B601-RS robotic arm.
+
+Key components:
+
+- Collected teleoperated demonstrations to build a dataset for four manipulation skills including spatula grasping, fruit scooping, and yogurt dispensing.
+- Trained and deployed a **SmolVLA** policy using the **LeRobot** framework for vision-based robotic manipulation.
+- Integrated learned policies with robot perception to perform an end-to-end autonomous fruit yogurt assembly task.
+- Demonstrated the complete manipulation pipeline at the **Physical AI Revolute Hackathon, August 2026**.
+
+**Project Repository:**
+
+<a class="repo-button" href="https://github.com/savieee/froyo_arm-" target="_blank">
+<i class="fa-brands fa-github"></i> Robotic Manipulation using SmolVLA
+</a>
+
+---
+
 ## POMDP Navigation in MiniGrid
 
 ![RL POMDP](../assets/images/projects/rlminigrid.jpeg)
